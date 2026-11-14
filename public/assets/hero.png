@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18225094695"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18225094695');
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madurai Tour Taxi - Best Cabs, Travels & Tour Packages in Madurai</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Madurai Tour Taxi offers premium cab services, customized tour packages, outstation drops, airport pickup & drop in Madurai. Book your reliable and affordable travel today!" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Madurai Tour Taxi - Premium Cabs & Travels in Madurai" />
+    <meta property="og:description" content="Experience premium and affordable cab services, outstation trips, and complete tour packages across Madurai and South India." />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:url" content="https://maduraitourtaxi.com/" />
+    <meta property="og:site_name" content="Madurai Tour Taxi" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Madurai Tour Taxi - Best Cabs & Travels" />
+    <meta name="twitter:description" content="Experience premium cab services, outstation trips, and complete tour packages across Madurai and South India." />
+    <meta name="twitter:image" content="/logo.png" />
+    <link rel="canonical" href="https://maduraitourtaxi.com/" />
+    <script type="module" crossorigin src="/assets/index-C6WrWh5q.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-73Kb6I11.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
