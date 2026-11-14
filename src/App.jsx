@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 import ScrollToTop from './components/ScrollToTop';
+import SplashLoader from './components/SplashLoader';
 
 // Dedicated Pages
 import HomePage from './pages/HomePage';
@@ -19,6 +20,7 @@ export default function App() {
 
   return (
     <Router>
+      <SplashLoader />
       <ScrollToTop />
       <div className="min-h-screen bg-ambient-mesh text-slate-800 flex flex-col font-sans selection:bg-amber-400 selection:text-slate-950">
         <Navbar />

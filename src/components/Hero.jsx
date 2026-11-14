@@ -99,10 +99,10 @@ Please confirm cab availability and total estimated fare. Thank you!`;
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/55 via-slate-950/20 to-slate-950/45 pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/30 via-transparent to-black/15 pointer-events-none" />
 
-      {/* Navigation Arrows */}
+      {/* Navigation Arrows - Hidden on small mobile to prevent content overlap */}
       <button
         onClick={prevSlide}
-        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/85 hover:bg-amber-400 text-slate-900 shadow-xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 backdrop-blur-sm cursor-pointer"
+        className="hidden md:flex absolute left-4 lg:left-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/85 hover:bg-amber-400 text-slate-900 shadow-xl items-center justify-center transition-all hover:scale-110 active:scale-95 backdrop-blur-sm cursor-pointer"
         aria-label="Previous image"
       >
         <ChevronLeft className="w-6 h-6" />
@@ -110,7 +110,7 @@ Please confirm cab availability and total estimated fare. Thank you!`;
 
       <button
         onClick={nextSlide}
-        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/85 hover:bg-amber-400 text-slate-900 shadow-xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 backdrop-blur-sm cursor-pointer"
+        className="hidden md:flex absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/85 hover:bg-amber-400 text-slate-900 shadow-xl items-center justify-center transition-all hover:scale-110 active:scale-95 backdrop-blur-sm cursor-pointer"
         aria-label="Next image"
       >
         <ChevronRight className="w-6 h-6" />

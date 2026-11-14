@@ -35,39 +35,39 @@ export default function Fleet({ lang }) {
               : 'Spotless AC sedans, family SUVs, Innova Crysta, and luxury Tempo Travellers at guaranteed lowest tariffs.'}
           </p>
 
-          {/* 3 Tariff Switchers: Outstation, Day Rental, Airport Package */}
-          <div className="mt-8 inline-flex p-1.5 bg-white/90 backdrop-blur-md border-2 border-slate-200/90 rounded-2xl shadow-lg">
+          {/* 3 Tariff Switchers: Outstation, Day Rental, Airport Package - Responsive for mobile */}
+          <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center p-1.5 gap-1.5 bg-white/90 backdrop-blur-md border-2 border-slate-200/90 rounded-2xl shadow-lg max-w-xl mx-auto">
             <button
               onClick={() => setTariffMode('outstation')}
-              className={`flex items-center space-x-2 px-5 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
+              className={`flex items-center justify-center space-x-2 px-4 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
                 tariffMode === 'outstation'
-                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md scale-105'
+                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md sm:scale-105'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              <Car className="w-4 h-4" />
+              <Car className="w-4 h-4 shrink-0" />
               <span>Outstation (Per Km)</span>
             </button>
             <button
               onClick={() => setTariffMode('dayRent')}
-              className={`flex items-center space-x-2 px-5 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
+              className={`flex items-center justify-center space-x-2 px-4 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
                 tariffMode === 'dayRent'
-                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md scale-105'
+                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md sm:scale-105'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              <Clock className="w-4 h-4" />
-              <span>Day Rental (Per Day + Km)</span>
+              <Clock className="w-4 h-4 shrink-0" />
+              <span>Day Rental (Per Day)</span>
             </button>
             <button
               onClick={() => setTariffMode('airport')}
-              className={`flex items-center space-x-2 px-5 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
+              className={`flex items-center justify-center space-x-2 px-4 py-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
                 tariffMode === 'airport'
-                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md scale-105'
+                  ? 'bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 shadow-md sm:scale-105'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              <Plane className="w-4 h-4" />
+              <Plane className="w-4 h-4 shrink-0" />
               <span>Airport / City (20 Km)</span>
             </button>
           </div>

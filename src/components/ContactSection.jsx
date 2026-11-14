@@ -75,7 +75,7 @@ Please get back to me with quotation.`;
 
             {/* WhatsApp Card (Emerald) */}
             <a
-              href={`https://wa.me/${PHONE_NUMBER_RAW}?text=Hi%20Madurai%20Best%20Taxi,%20I%20need%20cab%20details`}
+              href={`https://wa.me/${PHONE_NUMBER_RAW}?text=Hi%20Madurai%20Best%20Travels,%20I%20need%20cab%20details`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start space-x-4 bg-white/95 backdrop-blur-sm border-2 border-emerald-300 hover:border-emerald-400 p-6 rounded-3xl transition-all duration-300 group hover:shadow-2xl transform hover:-translate-y-1 shadow-md"
