@@ -61,26 +61,24 @@ export default function SplashLoader() {
         Skip ✕
       </button>
 
-      {/* Main Animated Logo Card */}
+      {/* Main Animated Logo (Pure Logo - No Box Container) */}
       <div className="relative z-10 flex flex-col items-center px-6 max-w-lg w-full text-center">
         
-        {/* Pulsing Decorative Golden Ring */}
-        <div className="relative mb-6">
-          <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-amber-500/20 via-yellow-400/30 to-amber-500/20 blur-xl animate-pulse" />
+        {/* Pure Logo with Ambient Glow & Float Animation */}
+        <div className="relative mb-6 flex items-center justify-center">
+          {/* Subtle golden aura behind the pure logo */}
+          <div className="absolute inset-0 bg-amber-400/20 rounded-full blur-2xl animate-pulse pointer-events-none" />
           
-          {/* Logo with gentle floating and shine sweep */}
-          <div className="relative bg-white/5 backdrop-blur-md p-4 sm:p-6 rounded-3xl border border-amber-400/30 shadow-[0_0_50px_rgba(245,158,11,0.25)]">
-            <img
-              src="/assets/logo.png"
-              alt="Madurai Best Travels Logo"
-              className="w-64 sm:w-80 md:w-96 max-w-[82vw] h-auto object-contain drop-shadow-[0_4px_20px_rgba(0,0,0,0.8)] transform transition-transform duration-1000 scale-100 animate-float"
-            />
-          </div>
+          <img
+            src="/assets/logo.png"
+            alt="Madurai Best Travels Logo"
+            className="relative z-10 w-72 sm:w-96 md:w-[420px] max-w-[85vw] h-auto object-contain drop-shadow-[0_12px_40px_rgba(0,0,0,0.95)] transform transition-transform duration-1000 scale-100 animate-float"
+          />
         </div>
 
         {/* Brand Tagline & Rating */}
-        <div className="space-y-2 mt-2">
-          <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-400 text-xs font-black tracking-wider uppercase">
+        <div className="space-y-2 mt-1">
+          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-400 text-xs font-black tracking-wider uppercase">
             <Sparkles className="w-3.5 h-3.5 fill-amber-400" />
             <span>Premium Cab & Outstation Service</span>
           </div>
@@ -110,3 +108,4 @@ export default function SplashLoader() {
     </div>
   );
 }
+
