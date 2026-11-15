@@ -295,6 +295,47 @@ export default function HomePage({ lang }) {
               </div>
             ))}
           </div>
+
+          {/* 4-Day & 5-Day Outstation Tour Special Callout Box */}
+          <div className="mt-12 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-8 border-2 border-amber-400 shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-80 h-80 bg-amber-400/15 rounded-full blur-3xl pointer-events-none" />
+            
+            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-6">
+              <div className="space-y-2 text-center lg:text-left">
+                <span className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-400 text-slate-950 text-xs font-black uppercase tracking-wider">
+                  <Sparkles className="w-3.5 h-3.5 fill-slate-950" />
+                  <span>4-Day & 5-Day Tour Packages</span>
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+                  Looking for Multi-Day Outstation Cab Rentals?
+                </h3>
+                <p className="text-slate-300 text-xs sm:text-sm max-w-2xl font-medium leading-relaxed">
+                  Sedan AC from <strong className="text-amber-400">₹1,600/day + ₹11/km</strong> • Innova AC from <strong className="text-amber-400">₹2,200/day + ₹12/km</strong> • Innova Crysta from <strong className="text-amber-400">₹2,600/day + ₹16/km</strong> • Tempo Traveller from <strong className="text-amber-400">₹2,700/day + ₹17/km</strong>.
+                </p>
+                <p className="text-[11px] text-slate-400 font-medium">
+                  *Tollgate, parking, driver allowance, hills & state permit extra.
+                </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 shrink-0 w-full sm:w-auto">
+                <a
+                  href={`tel:${PHONE_NUMBER_RAW}`}
+                  className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-amber-400 to-yellow-400 hover:from-amber-300 hover:to-yellow-300 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-lg transition-all active:scale-95 text-sm"
+                >
+                  <Phone className="w-4 h-4 fill-slate-950" />
+                  <span>Call {PHONE_NUMBER}</span>
+                </a>
+                <Link
+                  to="/vehicles"
+                  className="inline-flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-6 py-3.5 rounded-xl transition-all text-sm"
+                >
+                  <span>View All Package Rates</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 

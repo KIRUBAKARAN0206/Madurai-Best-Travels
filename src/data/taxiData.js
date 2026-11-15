@@ -175,10 +175,11 @@ export const VEHICLES = [
       notes: "Tollgate, parking, permit charges borne by customer"
     },
     dayRental: {
-      perDay: "₹1,500/day",
-      runningKm: "₹10/km",
+      perDay: "₹1,600/day",
+      runningKm: "₹11/km",
       minKm: "250 km",
-      kmCharges: "₹13/km"
+      kmCharges: "₹13/km",
+      terms: "Tollgate, parking, driver allowance, hills, state permit extra"
     },
     features: ["Up to 4 passengers", "Air conditioning", "Sedan comfort", "Clean & sanitized"]
   },
@@ -202,10 +203,11 @@ export const VEHICLES = [
       notes: "Tollgate, parking, permit charges borne by customer"
     },
     dayRental: {
-      perDay: "₹1,500/day",
-      runningKm: "₹10/km",
+      perDay: "₹1,600/day",
+      runningKm: "₹11/km",
       minKm: "250 km",
-      kmCharges: "₹13/km"
+      kmCharges: "₹13/km",
+      terms: "Tollgate, parking, driver allowance, hills, state permit extra"
     },
     features: ["Up to 4 passengers", "Spacious legroom", "Huge luggage space", "Smooth highway drive"]
   },
@@ -283,10 +285,11 @@ export const VEHICLES = [
       notes: "Tollgate, parking, permit charges borne by customer"
     },
     dayRental: {
-      perDay: "₹2,700/day",
-      runningKm: "₹15/km",
+      perDay: "₹2,600/day",
+      runningKm: "₹16/km",
       minKm: "300 km",
-      kmCharges: "₹20/km"
+      kmCharges: "₹20/km",
+      terms: "Tollgate, parking, driver allowance, hills, state permit extra"
     },
     features: ["VIP Reclining seats", "Premium interiors", "Ultra silent cabin", "Long distance king"]
   },
@@ -310,12 +313,92 @@ export const VEHICLES = [
       notes: "Tollgate, parking, permit charges borne by customer"
     },
     dayRental: {
-      perDay: "₹2,700/day",
-      runningKm: "₹17/km",
+      perDay: "₹2,700/day (14s) / ₹2,900/day (18s)",
+      runningKm: "₹17/km (14s) / ₹18/km (18s)",
       minKm: "350 km",
-      kmCharges: "₹22/km"
+      kmCharges: "₹22/km",
+      terms: "Tollgate, parking, driver allowance, hills, state permit extra"
     },
     features: ["Pushback luxury seats", "Group pilgrimage & marriage", "Ample luggage space", "Audio/LED setup"]
+  }
+];
+
+// Multi-Day Outstation Tour Packages (4-Day, 5-Day & Holiday Tours)
+export const OUTSTATION_PACKAGES = [
+  {
+    id: "sedan",
+    name: "Sedan AC (Swift Dzire / Etios)",
+    capacity: "4+1 Capacity",
+    seatsCount: "4+1 Seats",
+    perDay: "₹1,600",
+    perDayRent: 1600,
+    runningKm: "₹11/km",
+    runningKmRate: 11,
+    image: "/assets/fleet/dzire.png",
+    category: "Sedan AC",
+    badge: "Budget Friendly",
+    idealFor: "Ideal for 4-day / 5-day small family tours & temple visits",
+    terms: "Tollgate, parking, driver allowance, hills & state permit extra"
+  },
+  {
+    id: "innova",
+    name: "Toyota Innova AC",
+    capacity: "7+1 Capacity",
+    seatsCount: "7+1 Seats",
+    perDay: "₹2,200",
+    perDayRent: 2200,
+    runningKm: "₹12/km",
+    runningKmRate: 12,
+    image: "/assets/fleet/innova.png",
+    category: "Family SUV AC",
+    badge: "Most Popular",
+    idealFor: "Family pilgrimage & comfortable outstation holiday circuits",
+    terms: "Tollgate, parking, driver allowance, hills & state permit extra"
+  },
+  {
+    id: "crysta",
+    name: "Innova Crysta AC",
+    capacity: "7+1 Capacity",
+    seatsCount: "7+1 Seats",
+    perDay: "₹2,600",
+    perDayRent: 2600,
+    runningKm: "₹16/km",
+    runningKmRate: 16,
+    image: "/assets/fleet/crysta.png",
+    category: "VIP Luxury",
+    badge: "Premium Comfort",
+    idealFor: "VIP luxury outstation travel with plush pushback seats",
+    terms: "Tollgate, parking, driver allowance, hills & state permit extra"
+  },
+  {
+    id: "tempo-14",
+    name: "14 Seater Tempo Traveller AC",
+    capacity: "14 Seater Pushback",
+    seatsCount: "14 Seats",
+    perDay: "₹2,700",
+    perDayRent: 2700,
+    runningKm: "₹17/km",
+    runningKmRate: 17,
+    image: "/assets/fleet/tempo.png",
+    category: "Group Minibus",
+    badge: "Group Tour Special",
+    idealFor: "Perfect for 4-5 days group temple & hill station tours",
+    terms: "Tollgate, parking, driver allowance, hills & state permit extra"
+  },
+  {
+    id: "tempo-18",
+    name: "18 Seater Tempo Traveller AC",
+    capacity: "18 Seater Pushback",
+    seatsCount: "18 Seats",
+    perDay: "₹2,900",
+    perDayRent: 2900,
+    runningKm: "₹18/km",
+    runningKmRate: 18,
+    image: "/assets/fleet/tempo.png",
+    category: "Large Group Luxury",
+    badge: "Maximum Capacity",
+    idealFor: "Large family celebrations, spiritual circuits & group holidays",
+    terms: "Tollgate, parking, driver allowance, hills & state permit extra"
   }
 ];
 

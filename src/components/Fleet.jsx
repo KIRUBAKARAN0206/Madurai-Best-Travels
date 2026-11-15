@@ -250,6 +250,9 @@ export default function Fleet({ lang }) {
                             <span>Outstation Km Rate:</span>
                             <span className="font-bold text-amber-700">{vehicle.dayRental.kmCharges}</span>
                           </div>
+                          <div className="text-[11px] text-slate-500 pt-1 border-t border-emerald-200/70 font-medium">
+                            *Tollgate, parking, driver allowance, hills & state permit extra
+                          </div>
                         </div>
                       )}
 
