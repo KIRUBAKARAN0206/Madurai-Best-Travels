@@ -220,11 +220,11 @@ export const VEHICLES = [
     luggage: "3 Bags",
     bagsCount: "3 Bags",
     ac: "Dual AC",
-    price: "₹19/km",
+    price: "₹18/km",
     carPhoto: "/assets/fleet/ertiga.png",
     recommended: false,
     outstation: {
-      rate: "₹19/km (Round Trip)",
+      rate: "₹18/km (Round Trip)",
       oneWay: "₹18/km (One Way)",
       minKm: "300 km / Day",
       driverBatta: "₹400 / Day",
@@ -234,7 +234,7 @@ export const VEHICLES = [
       perDay: "₹2,200/day",
       runningKm: "₹12/km",
       minKm: "300 km",
-      kmCharges: "₹17/km"
+      kmCharges: "₹18/km"
     },
     features: ["Up to 6-7 passengers", "Dual air conditioning", "Foldable 3rd row", "Family trip favorite"]
   },
@@ -247,11 +247,11 @@ export const VEHICLES = [
     luggage: "4 Bags",
     bagsCount: "4 Bags",
     ac: "Climate AC",
-    price: "₹17/km",
+    price: "₹18/km",
     carPhoto: "/assets/fleet/innova.png",
     recommended: false,
     outstation: {
-      rate: "₹17/km (Round Trip)",
+      rate: "₹18/km (Round Trip)",
       oneWay: "₹19/km (One Way)",
       minKm: "300 km / Day",
       driverBatta: "₹500 / Day",
@@ -261,7 +261,7 @@ export const VEHICLES = [
       perDay: "₹2,200/day",
       runningKm: "₹12/km",
       minKm: "300 km",
-      kmCharges: "₹17/km"
+      kmCharges: "₹18/km"
     },
     features: ["Captain seats", "Long journey comfort", "High highway stability", "Ample boot space"]
   },
@@ -294,32 +294,60 @@ export const VEHICLES = [
     features: ["VIP Reclining seats", "Premium interiors", "Ultra silent cabin", "Long distance king"]
   },
   {
-    id: "tempo-traveller",
-    name: "Tempo Traveller AC",
+    id: "tempo-12",
+    name: "Tempo Traveller AC (12 Seater)",
     category: "Group Minibus",
-    seats: "12 - 18 Passengers",
-    seatsCount: "12-18 Seats",
+    seats: "12 Passengers",
+    seatsCount: "12 Seats",
     luggage: "Heavy duty top carrier",
     bagsCount: "10+ Bags",
     ac: "Pushback AC",
-    price: "₹22/km",
+    price: "₹23/km",
     carPhoto: "/assets/fleet/tempo.png",
     recommended: false,
     outstation: {
-      rate: "₹22/km (Round Trip)",
-      oneWay: "₹24/km (One Way)",
+      rate: "₹23/km (Round Trip)",
+      oneWay: "₹25/km (One Way)",
       minKm: "350 km / Day",
       driverBatta: "₹600 / Day",
       notes: "Tollgate, parking, permit charges borne by customer"
     },
     dayRental: {
-      perDay: "₹2,700/day (14s) / ₹2,900/day (18s)",
-      runningKm: "₹17/km (14s) / ₹18/km (18s)",
+      perDay: "₹2,700/day",
+      runningKm: "₹17/km",
       minKm: "350 km",
-      kmCharges: "₹22/km",
+      kmCharges: "₹23/km",
       terms: "Tollgate, parking, driver allowance, hills, state permit extra"
     },
-    features: ["Pushback luxury seats", "Group pilgrimage & marriage", "Ample luggage space", "Audio/LED setup"]
+    features: ["12 Pushback luxury seats", "Group pilgrimage & marriage", "Individual AC vents", "Audio/LED setup"]
+  },
+  {
+    id: "tempo-18",
+    name: "Tempo Traveller AC (18 Seater)",
+    category: "Large Group Luxury",
+    seats: "18 Passengers",
+    seatsCount: "18 Seats",
+    luggage: "Heavy duty top carrier",
+    bagsCount: "15+ Bags",
+    ac: "High Power Dual AC",
+    price: "₹30/km",
+    carPhoto: "/assets/fleet/tempo.png",
+    recommended: false,
+    outstation: {
+      rate: "₹30/km (Round Trip)",
+      oneWay: "₹32/km (One Way)",
+      minKm: "350 km / Day",
+      driverBatta: "₹700 / Day",
+      notes: "Tollgate, parking, permit charges borne by customer"
+    },
+    dayRental: {
+      perDay: "₹2,900/day",
+      runningKm: "₹18/km",
+      minKm: "350 km",
+      kmCharges: "₹30/km",
+      terms: "Tollgate, parking, driver allowance, hills, state permit extra"
+    },
+    features: ["18 Pushback luxury seats", "Spacious 2x1 seating layout", "Large group holiday special", "Audio/LED setup"]
   }
 ];
 
