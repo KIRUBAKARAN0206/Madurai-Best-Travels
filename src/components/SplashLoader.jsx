@@ -49,12 +49,14 @@ export default function SplashLoader() {
       }`}
       aria-label="Welcome to Madurai Best Travels"
     >
-      {/* Background Adiyogi Shiva Atmospheric Backdrop */}
+      {/* Background Adiyogi Shiva Atmospheric Backdrop - Bright, Vivid & Clear */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-25 filter contrast-125 brightness-95 pointer-events-none"
+        className="absolute inset-0 bg-cover bg-center md:bg-[center_30%] opacity-70 filter brightness-105 contrast-110 pointer-events-none transform scale-105 transition-transform duration-3000"
         style={{ backgroundImage: `url('/assets/unique/adiyogi_shiva_hero.jpg')` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/60 to-slate-950/90 pointer-events-none" />
+      {/* Gentle soft vignette so Shiva is clearly visible while text & logo remain readable */}
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/30 to-slate-950/45 pointer-events-none" />
+      <div className="absolute inset-0 bg-radial from-transparent via-slate-950/20 to-slate-950/60 pointer-events-none" />
 
       {/* Ambient Radial Golden Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 sm:w-[480px] h-80 sm:h-[480px] bg-amber-400/20 rounded-full blur-[100px] pointer-events-none animate-pulse" />

@@ -96,14 +96,14 @@ Please confirm cab availability and total estimated fare. Thank you!`;
           <img
             src={slide.image}
             alt={slide.title}
-            className="w-full h-full object-cover object-center transform scale-100 transition-transform duration-[10000ms] hover:scale-105"
+            className="w-full h-full object-cover object-center md:object-[center_30%] filter brightness-105 contrast-105 transform scale-100 transition-transform duration-[10000ms] hover:scale-105"
           />
         </div>
       ))}
 
       {/* Gentle transparent gradient so image is 100% colorful, bright and clearly visible */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/55 via-slate-950/20 to-slate-950/45 pointer-events-none" />
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/30 via-transparent to-black/15 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/45 via-slate-950/15 to-slate-950/35 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/25 via-transparent to-black/10 pointer-events-none" />
 
       {/* Navigation Arrows - Hidden on small mobile to prevent content overlap */}
       <button
