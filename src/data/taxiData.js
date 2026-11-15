@@ -511,7 +511,8 @@ export const TOUR_PACKAGES = [
     price: "₹3,349",
     rating: "4.9",
     category: "Temple Tours",
-    image: "/assets/prasanna/coimbatore-CpqKmhvw.jpeg",
+    badge: "Spiritual Circuit",
+    image: "/assets/unique/adiyogi_shiva_hero.jpg",
     places: [
       "Isha Yoga Center (Adiyogi 112ft)",
       "Marudhamalai Murugan Temple",

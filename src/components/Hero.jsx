@@ -9,8 +9,14 @@ import CustomDropdown from './CustomDropdown';
 
 const UNIQUE_HERO_SLIDES = [
   {
+    image: '/assets/unique/adiyogi_shiva_hero.jpg',
+    tag: 'Spiritual & Outstation Circuits',
+    title: 'Adiyogi Shiva & Temple Tours',
+    desc: 'Coimbatore Isha Adiyogi, Madurai Meenakshi, Rameswaram & Palani pilgrimages with trusted chauffeurs.'
+  },
+  {
     image: '/assets/unique/hero_golden_temple.jpg',
-    tag: 'Spiritual & Temple Circuits',
+    tag: 'Sacred Temple Circuits',
     title: 'Madurai & Southern Temples',
     desc: 'Meenakshi Temple, Rameswaram, Thiruchendur & Palani with expert local drivers.'
   },
