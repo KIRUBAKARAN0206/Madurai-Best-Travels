@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Index
-Sitemap: https://madurai-best-travels.vercel.app/sitemap.xml
+Sitemap: https://www.maduraibesttravels.in/sitemap.xml
