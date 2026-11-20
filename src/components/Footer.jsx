@@ -166,7 +166,18 @@ export default function Footer() {
 
         {/* Bottom copyright & scroll-to-top */}
         <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Madurai Best Travels. All rights reserved. Designed for comfort, safety & pilgrimage.</p>
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-2 text-slate-400">
+            <p>© {new Date().getFullYear()} Madurai Best Travels. All rights reserved.</p>
+            <span>•</span>
+            <a 
+              href="/sitemap.xml" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-amber-400 transition-colors underline decoration-slate-600"
+            >
+              XML Sitemap
+            </a>
+          </div>
           <button
             onClick={scrollToTop}
             className="flex items-center space-x-1.5 text-slate-400 hover:text-amber-400 transition-colors font-semibold cursor-pointer"

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   MapPin, Calendar, Clock, Car, Phone, MessageCircle, 
   CheckCircle2, Sparkles, Navigation, ChevronLeft, ChevronRight,
@@ -201,12 +202,12 @@ Please confirm cab availability and total estimated fare. Thank you!`;
                   <Phone className="w-4 h-4 fill-slate-950" />
                   <span>{lang === 'ta' ? 'இப்போதே அழைக்க' : 'Call: ' + PHONE_NUMBER}</span>
                 </a>
-                <a
-                  href="#/packages"
+                <Link
+                  to="/packages"
                   className="flex items-center space-x-2 bg-white/95 hover:bg-white text-slate-950 font-black px-6 py-3.5 rounded-xl border border-white shadow-lg active:scale-95 transition-all text-sm sm:text-base"
                 >
                   <span>{lang === 'ta' ? 'டூர் பேக்கேஜ் காண்க' : 'View Tour Packages'}</span>
-                </a>
+                </Link>
               </div>
 
             </div>
